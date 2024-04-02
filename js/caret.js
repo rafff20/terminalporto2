@@ -1,3 +1,5 @@
+// CREDIT https://github.com/forrestknight
+
 function $(elid) {
   return document.getElementById(elid);
 }
