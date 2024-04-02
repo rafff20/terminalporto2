@@ -1,0 +1,32 @@
+@font-face {
+  font-family: "CascadiaCode";
+  src: url(/assets/fonts/CascadiaCode.ttf);
+  display: swap;
+}
+
+body {
+  margin: 0;
+  padding: 15px 20px;
+  min-height: 99%;
+  width: 100%;
+  min-width: 550px;
+  color: #d9ed92;
+  background: #012a4a;
+  font-family: "CascadiaCode", monospace;
+  overflow-x: hidden;
+}
+
+::selection {
+  color: #211830;
+  background-color: #a9d6e5;
+}
+
+textarea {
+  position: absolute;
+  left: -1000px;
+}
+
+b {
+  font-weight: bold;
+  text-decoration: underline;
+}

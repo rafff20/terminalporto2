@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>My Portofolio Terminal</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div id="terminal">
+      <a id="before"></a>
+    </div>
+    <div id="command" onclick="$('texter').focus()"></div>
+    <textarea
+      type="text"
+      id="texter"
+      onkeyup="typeIt(this, event)"
+      onkeydown="typeIt(this,event)"
+      onkeypress="typeIt(this,event)"
+      autofocus
+    ></textarea>
+    <div id="liner">
+      <span style="color: #a9d6e5">Guest</span
+      ><span style="color: #ff8e2b">@</span
+      ><span style="color: #5bd3c7">localhost</span
+      ><span style="color: #ff8e2b">:$ ~ </span><span id="typer"></span
+      ><b class="cursor" id="cursor">█</b>
+    </div>
+    <script src="js/command.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/caret.js"></script>
+  </body>
+</html>
