@@ -3,6 +3,7 @@ var kedaikopi = "https://github.com/rafff20/kedaikopi";
 var github = "https://github.com/rafff20";
 var instagram = "https://www.instagram.com/rizqiafzn/";
 var linkedin = "https://www.linkedin.com/in/rizqi-achmad-fauzan/";
+var strava = "https://www.strava.com/athletes/rizqiaf";
 
 help = [
   "<br>",
@@ -17,39 +18,48 @@ help = [
 about = [
   "<br>",
   "Hii, my name is Rizqi Achmad Fauzan",
-  "Exploring various things in the field of informatics is an activity that I like.",
-  "I hope that I can continue to seek as many experiences and relationships as possible. ",
+  "Exploring various things in life is my daily activities.",
+  "Feel free to reach me out. ",
   "<br>",
 ];
 
 projects = [
   "<br>",
   "Solo Projects",
-  'filmify       <a href="' +
+  'Portfolio 1       <a href="' +
     porto1 +
     '" target="_blank">github.com/rafff20/porto1' +
     "</a>",
-  'pretonic      <a href="' +
+  'Kedai Kopi        <a href="' +
     kedaikopi +
     '" target="_blank">github.com/rafff20/kedaikopi' +
     "</a>",
+  "<br></br>",
+  "Group/College Projects",
+
   "<br>",
 ];
 
 social = [
   "<br>",
-  'linkedin       <a href="' +
+  'Linkedin       <a href="' +
     linkedin +
     '" target="_blank">linkedin/rizqi-achmad-fauzan/' +
     "</a>",
-  'instagram      <a href="' +
+  'Instagram      <a href="' +
     instagram +
     '" target="_blank">instagram/rizqiafzn/' +
     "</a>",
-  'github         <a href="' +
+  'Github         <a href="' +
     github +
     '" target="_blank">github/rafff20' +
     "</a>",
+
+  'Strava         <a href="' +
+    strava +
+    '"target="_blank">www.strava.com/athletes/rizqiaf' +
+    "</a>",
+
   "<br>",
 ];
 
