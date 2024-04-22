@@ -4,11 +4,13 @@ var github = "https://github.com/rafff20";
 var instagram = "https://www.instagram.com/rizqiafzn/";
 var linkedin = "https://www.linkedin.com/in/rizqi-achmad-fauzan/";
 var strava = "https://www.strava.com/athletes/rizqiaf";
+var spotify =
+  "https://open.spotify.com/user/21n4wdry6wyp5bb5eimho7iyq?si=c853e1bc941d4a67";
 
 help = [
   "<br>",
   '<span class="command">about</span>          About me',
-  '<span class="command">projects</span>       Check out my stuff',
+  '<span class="command">projects</span>       Check out my stuffs',
   '<span class="command">socials</span>        Find me on',
   '<span class="command">clear</span>          Clear terminal',
   '<span class="command">help</span>           Show all commands',
@@ -18,7 +20,7 @@ help = [
 about = [
   "<br>",
   "Hii, my name is Rizqi Achmad Fauzan",
-  "Exploring various things in life is my daily activities.",
+  "I love exploring various things in life.",
   "Feel free to reach me out. ",
   "<br>",
 ];
@@ -57,7 +59,12 @@ social = [
 
   'Strava         <a href="' +
     strava +
-    '"target="_blank">www.strava.com/athletes/rizqiaf' +
+    '"target="_blank">strava.com/athletes/rizqiaf' +
+    "</a>",
+
+  'Spotify        <a href="' +
+    spotify +
+    '"target="_blank">open.spotify.com/user/21n4wdry6wyp5bb5eimho7iyq?si=c853e1bc941d4a67' +
     "</a>",
 
   "<br>",

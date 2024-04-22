@@ -68,9 +68,9 @@ b {
   opacity: 0;
 }
 
-#liner.password::before {
+/* #liner.password::before {
   content: "Password:";
-}
+} */
 @keyframes show {
   from {
     opacity: 0;
@@ -133,4 +133,12 @@ a:hover {
 }
 a:focus {
   outline: 0;
+}
+
+/* Media Queries */
+
+@media (max-width: 450px) {
+  html {
+    font-size: 55%;
+  }
 }

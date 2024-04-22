@@ -12,17 +12,15 @@ function init() {
   cursor.style.left = "0px";
 }
 
-function nl2br(txt) {
+function removeNewlines(txt) {
   return txt.replace(/\n/g, "");
 }
 
 function typeIt(from, e) {
   e = e || window.event;
   var w = $("typer");
-  var tw = from.value;
-  if (!pw) {
-    w.innerHTML = nl2br(tw);
-  }
+  var isi = from.value;
+  w.innerHTML = removeNewlines(isi);
 }
 
 function moveIt(count, e) {
