@@ -15,11 +15,12 @@ setTimeout(function () {
   // );
   loopLines(banner, "", 0);
   addLine(
-    "_________________________________________________________________________________________________________"
+    "___________ฅ^._.^ฅ____________________ฅ^._.^ฅ____________________ฅ^._.^ฅ____________________ฅ^._.^ฅ___________"
   );
-  addLine("<br> Welcome to this portfolio.");
+  addLine("<br> Welcome to my portfolio.");
   addLine("______________________________________");
-  addLine("<br> Inspired by ForrestKnight.");
+  addLine("");
+  addLine("<br> (づ｡◕‿‿◕｡)づ  /ᐠ - ˕ -マ  ฅ/ᐠ. ̫ .ᐟ\\ฅ ");
   addLine(
     "<br> Type <span class=\"command\">'help'</span> to view the list of existing commands."
   );
@@ -110,6 +111,9 @@ function cmds(cmd) {
       break;
     case "socials":
       loopLines(social, "color2 margin", 80);
+      break;
+    case "meow":
+      loopLines(meow, "color2 margin", 80);
       break;
     case "clear":
       setTimeout(function () {
