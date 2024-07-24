@@ -1,4 +1,6 @@
 var porto1 = "https://github.com/rafff20/porto1";
+var filmify = "https://github.com/rafff20/Filmify";
+var earism = "https://github.com/rafff20/Earism";
 var kedaikopi = "https://github.com/rafff20/kedaikopi";
 var github = "https://github.com/rafff20";
 var instagram = "https://www.instagram.com/rizqiafzn/";
@@ -12,7 +14,7 @@ help = [
   '<span class="command">about</span>          About me',
   '<span class="command">projects</span>       Check out my stuffs',
   '<span class="command">socials</span>        Find me on',
-  '<span class="command">meow</span>           ',
+  '<span class="command">meow</span>           🐱🐈',
   '<span class="command">clear</span>          Clear terminal',
   '<span class="command">help</span>           Show all commands',
   "<br>",
@@ -29,6 +31,7 @@ about = [
 projects = [
   "<br>",
   "Solo Projects",
+  "-------------",
   'Portfolio 1       <a href="' +
     porto1 +
     '" target="_blank">github.com/rafff20/porto1' +
@@ -37,8 +40,17 @@ projects = [
     kedaikopi +
     '" target="_blank">github.com/rafff20/kedaikopi' +
     "</a>",
+  'Earism            <a href="' +
+    earism +
+    '" target="_blank">github.com/rafff20/Earism' +
+    "</a>",
   "<br></br>",
   "Group/College Projects",
+  "----------------------",
+  'Filmify           <a href="' +
+    filmify +
+    '" target="_blank">github.com/rafff20/Filmify' +
+    "</a>",
 
   "<br>",
 ];
