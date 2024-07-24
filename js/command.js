@@ -51,6 +51,10 @@ projects = [
     filmify +
     '" target="_blank">github.com/rafff20/Filmify' +
     "</a>",
+  'Filmify           <a href="' +
+    filmify +
+    '" target="_blank">github.com/rafff20/Filmify' +
+    "</a>",
 
   "<br>",
 ];
